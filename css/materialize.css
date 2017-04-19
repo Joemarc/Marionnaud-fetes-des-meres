@@ -2186,6 +2186,7 @@ html {
  * Remove default margin.
  */
 body {
+  background-color: white;
   margin: 0;
 }
 
@@ -2701,7 +2702,7 @@ video.responsive-video {
 }
 
 .pagination li.active a {
-  color: #fff;
+  color: white;
 }
 
 .pagination li.active {
@@ -2923,7 +2924,9 @@ table.bordered > tbody > tr {
 }
 
 table.striped > tbody > tr:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-image: linear-gradient(-50deg, rgba(0,0,0,0.0) 100%, rgba(0,0,0,0.6) 100%), url(fonddior.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 table.striped > tbody > tr > td {
@@ -3373,6 +3376,13 @@ nav ul a span.badge {
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
+}
+
+.container_2 {
+  background-color: white;
+  margin: 45px auto;
+  max-width: 1100px;
+  /*width: 90%;*/
 }
 
 @media only screen and (min-width: 601px) {
@@ -4872,7 +4882,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color: #44BBE1;
   margin-right: 24px;
   transition: color .3s ease;
   text-transform: uppercase;
@@ -5193,7 +5203,7 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #d895e9;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -5201,7 +5211,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #44BBE1;
 }
 
 .btn-floating {
@@ -5214,7 +5224,7 @@ small {
   height: 40px;
   line-height: 40px;
   padding: 0;
-  background-color: #26a69a;
+  background-color: #44BBE1;
   border-radius: 50%;
   transition: .3s;
   cursor: pointer;
@@ -5222,7 +5232,7 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+  background-color: #44BBE1;
 }
 
 .btn-floating:before {
@@ -8977,4 +8987,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em;
   }
+}
+
+.pad-bot {
+  padding-bottom: 50px;
 }

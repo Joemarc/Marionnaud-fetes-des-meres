@@ -3,11 +3,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Marionnaud Jeu concours </title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
@@ -27,33 +29,11 @@
     </div>
   </nav>
 
-  <div class="banner" style="background-image:  url('fetemaman.jpg');">
+  <div class="banner" style="background-image:  url('fetemaman1.png');">
   <div class="banner-content">
   
-    <p>Very cool stuff, useful and smart</p>
-    <a class="btn btn-primary btn-lg">GET IT</a>
   </div>
 </div>
-
-  <<!-- div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Souscrir sa vidéo</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="fetemaman.jpg" alt="Unsplashed background img 1"></div>
-  </div> -->
-
-
   <div class="container">
     <div class="section">
 
@@ -97,11 +77,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+         <!--  <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="Miss-Dior.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="Miss1.png" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -110,8 +90,10 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h3>À vous de jouer !</h3>
+          <h5>#MakeUpTonHomme</h5>
+          <a href="videos.html" class="btn btn-primary btn-lg pulse">Voir les vidéos</a>
+          <p class="left-align light"></p>
         </div>
       </div>
 
@@ -123,11 +105,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+<!--           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="yves-saint-laurent-saharienne-pub.jpg" alt="Unsplashed background img 3">
+    <div class="parallax"><img src="Miss2.png" alt="Unsplashed background img 3">
 
 
 
@@ -137,41 +119,61 @@
     </div>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="row">
+        <div class="col s12 center">
+          <h3 class= "text-center padding text-blank" id="contact" > Contactez-nous </h3>
+        <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-5 border-line"></div>
+        <div class="little_pad_bot"></div>
+        <div class="little_pad_bot"></div>
+        <div class="row">
+          <form  class="pad" action="https://formspree.io/joe.marc3@gmail.com"
+            method="POST">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6 m3 offset-m3 ">
+                  <input id="first_name" type="text" name="name" class="validate text-blank">
+                  <label for="first_name">Prénom</label>
+                </div>
+                <div class="input-field col s6 m3 ">
+                  <input id="last_name" type="text" name="last_name" class="validate text-blank">
+                  <label for="last_name">Nom</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m6 offset-m3 ">
+                  <textarea id="textarea1" class="materialize-textarea text-blank validate" name="text" ></textarea>
+                  <label for="textarea1">Votre Message</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m6 offset-m3 ">
+                  <input id="email" type="email" name="_replyto" class="validate text-blank">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" value="send" name="action">Envoyer
+                <i class="material-icons left">send</i>
+              </button>
+              <input type="hidden" name="_next" value="index.html" />
+            </form>
+          </form>
+        <div class="pad-bot">
+        <!-- <a href="https://www.facebook.com/profile.php?id=1003332356">
+            <i class="fa-size fa fa-facebook-official fa-3x animated pulse infinite navbar-wagon-link" aria-hidden="true"></i>
+          </a> -->
+          <a href="https://fr.linkedin.com/in/joé-marc-5b6ba290">
+            <i class="fa-size fa fa-linkedin-square fa-3x animated pulse infinite navbar-wagon-link" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Joemarc">
+            <i class="fa-size fa fa-github fa-3x animated pulse infinite  navbar-wagon-link" aria-hidden="true"></i>
+          </a>
+      </div>
+      <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-5 border-line"></div>
+      <h5 class="purple_6_text">contact@marionnaud.com</h5>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
 
 
   <!--  Scripts-->
