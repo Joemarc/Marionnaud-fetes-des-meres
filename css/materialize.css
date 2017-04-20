@@ -2706,7 +2706,7 @@ video.responsive-video {
 }
 
 .pagination li.active {
-  background-color: #ee6e73;
+  background-color: #D895E9;
 }
 
 .pagination li.disabled a {
@@ -8988,7 +8988,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
-
 .pad-bot {
   padding-bottom: 50px;
+}
+
+.pad-bot-2 {
+  padding-bottom: 120px;
 }
