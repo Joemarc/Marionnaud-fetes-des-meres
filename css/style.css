@@ -26,7 +26,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 520px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -146,4 +146,12 @@ footer.page-footer {
 .bg-instagram {
   /* XMLID_17_: */
 background-image: linear-gradient(0deg, #E09B3D 0%, #C74C4D 30%, #C21975 60%, #7024C4 99%);
+}
+
+.text-blank {
+  color: white;
+}
+
+.blue_marz {
+  background-color: black;
 }
