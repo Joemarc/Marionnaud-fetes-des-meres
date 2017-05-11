@@ -29,7 +29,7 @@
   color: #692452;
 }
 .resize-img {
-  width: 239px;
+  width: 129px;
 }
 .materialize-red {
   background-color: #e51c23 !important;
@@ -3376,6 +3376,7 @@ nav ul a span.badge {
   margin: 0 auto;
   max-width: 1280px;
   width: 90%;
+  background-color: white;
 }
 
 .container_2 {

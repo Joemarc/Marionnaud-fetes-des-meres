@@ -8,6 +8,10 @@
 .wrapper {
   background-color: #D895E9;
 }
+
+.wrapper_2 {
+  background-image: url('../prizm_package.jpg'); ;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
